@@ -1,3 +1,14 @@
 .menu-full a {
     color: #000;
+    margin: 0px 10px;
+}
+.menu-full button {
+    border-radius: 100px;
+    color: #fff;
+    padding: 9px 38px;
+    background: #E51A4B;
+    border: none;
+}
+.sticky-top {
+    background: #fff;
 }

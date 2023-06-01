@@ -1,82 +1,134 @@
 {
-    "tables": [
+    "breakfast": [
         {
-            "name": "breakfast",
-            "items": [
-                {
-                    "title": "Classic Omelette",
-                    "short_description": "Fluffy omelette filled with your choice of ingredients.",
-                    "price": 8.99,
-                    "imgUrl": "https://i.ibb.co/6FymYkV/breakfast1.png",
-                    "id": 1
-                },
-                {
-                    "title": "Avocado Toast",
-                    "short_description": "Toasted bread topped with mashed avocado, cherry tomatoes, and fresh herbs.",
-                    "price": 7.99,
-                    "imgUrl": "https://i.ibb.co/7t5p0b6/breakfast2.png",
-                    "id": 2
-                },
-                {
-                    "title": "Pancakes with Maple Syrup",
-                    "short_description": "Fluffy pancakes served with warm maple syrup and a side of fresh berries.",
-                    "price": 9.99,
-                    "imgUrl": "https://i.ibb.co/tCDp8y5/breakfast3.png",
-                    "id": 3
-                }
-            ]
+            "title": "Classic Omelette",
+            "shortDescription": "Fluffy omelette filled with your choice of ingredients.",
+            "price": 8.99,
+            "imgUrl": "https://i.ibb.co/6FymYkV/breakfast1.png",
+            "id": 1
         },
         {
-            "name": "lunch",
-            "items": [
-                {
-                    "title": "Caesar Salad",
-                    "short_description": "Crisp romaine lettuce, Parmesan cheese, and homemade Caesar dressing.",
-                    "price": 10.99,
-                    "imgUrl": "https://i.ibb.co/T0bFYFH/lunch1.png",
-                    "id": 4
-                },
-                {
-                    "title": "Chicken Wrap",
-                    "short_description": "Grilled chicken, lettuce, tomatoes, and creamy dressing wrapped in a tortilla.",
-                    "price": 11.99,
-                    "imgUrl": "https://i.ibb.co/HFyWvHV/lunch2.png",
-                    "id": 5
-                },
-                {
-                    "title": "Quinoa Salad",
-                    "short_description": "A refreshing salad with quinoa, mixed greens, cucumbers, and tangy vinaigrette.",
-                    "price": 9.99,
-                    "imgUrl": "https://i.ibb.co/vHSCV46/lunch3.png",
-                    "id": 6
-                }
-            ]
+            "title": "Avocado Toast",
+            "shortDescription": "Toasted bread topped with mashed avocado, cherry tomatoes, and fresh herbs.",
+            "price": 7.99,
+            "imgUrl": "https://i.ibb.co/7t5p0b6/breakfast2.png",
+            "id": 2
         },
         {
-            "name": "Dinner",
-            "items": [
-                {
-                    "title": "Grilled Salmon",
-                    "short_description": "Freshly grilled salmon fillet served with steamed vegetables and lemon butter sauce.",
-                    "price": 18.99,
-                    "imgUrl": "https://i.ibb.co/QHZWt6t/dinner4.png",
-                    "id": 7
-                },
-                {
-                    "title": "Mushroom Risotto",
-                    "short_description": "Creamy risotto cooked with a variety of mushrooms and topped with Parmesan cheese.",
-                    "price": 15.99,
-                    "imgUrl": "https://i.ibb.co/fCnCXrP/dinner5.png",
-                    "id": 8
-                },
-                {
-                    "title": "Beef Tenderloin",
-                    "short_description": "Tender and juicy beef tenderloin steak served with mashed potatoes and red wine sauce.",
-                    "price": 22.99,
-                    "imgUrl": "https://i.ibb.co/2N1mkKD/dinner6.png",
-                    "id": 9
-                }
-            ]
+            "title": "Pancakes with Maple Syrup",
+            "shortDescription": "Fluffy pancakes served with warm maple syrup and a side of fresh berries.",
+            "price": 9.99,
+            "imgUrl": "https://i.ibb.co/tCDp8y5/breakfast3.png",
+            "id": 3
+        },
+        {
+            "title": "Grilled Salmon",
+            "shortDescription": "Freshly grilled salmon fillet served with steamed vegetables and lemon butter sauce.",
+            "price": 18.99,
+            "imgUrl": "https://i.ibb.co/QHZWt6t/dinner4.png",
+            "id": 7
+        },
+        {
+            "title": "Mushroom Risotto",
+            "shortDescription": "Creamy risotto cooked with a variety of mushrooms and topped with Parmesan cheese.",
+            "price": 15.99,
+            "imgUrl": "https://i.ibb.co/fCnCXrP/dinner5.png",
+            "id": 8
+        },
+        {
+            "title": "Beef Tenderloin",
+            "shortDescription": "Tender and juicy beef tenderloin steak served with mashed potatoes and red wine sauce.",
+            "price": 22.99,
+            "imgUrl": "https://i.ibb.co/2N1mkKD/dinner6.png",
+            "id": 9
+        }
+    ],
+    "lunch": [
+        {
+            "title": "Caesar Salad",
+            "shortDescription": "Crisp romaine lettuce, Parmesan cheese, and homemade Caesar dressing.",
+            "price": 10.99,
+            "imgUrl": "https://i.ibb.co/T0bFYFH/lunch1.png",
+            "id": 4
+        },
+        {
+            "title": "Chicken Wrap",
+            "shortDescription": "Grilled chicken, lettuce, tomatoes, and creamy dressing wrapped in a tortilla.",
+            "price": 11.99,
+            "imgUrl": "https://i.ibb.co/HFyWvHV/lunch2.png",
+            "id": 5
+        },
+        {
+            "title": "Quinoa Salad",
+            "shortDescription": "A refreshing salad with quinoa, mixed greens, cucumbers, and tangy vinaigrette.",
+            "price": 9.99,
+            "imgUrl": "https://i.ibb.co/vHSCV46/lunch3.png",
+            "id": 6
+        },
+        {
+            "title": "Classic Omelette",
+            "shortDescription": "Fluffy omelette filled with your choice of ingredients.",
+            "price": 8.99,
+            "imgUrl": "https://i.ibb.co/6FymYkV/breakfast1.png",
+            "id": 1
+        },
+        {
+            "title": "Avocado Toast",
+            "shortDescription": "Toasted bread topped with mashed avocado, cherry tomatoes, and fresh herbs.",
+            "price": 7.99,
+            "imgUrl": "https://i.ibb.co/7t5p0b6/breakfast2.png",
+            "id": 2
+        },
+        {
+            "title": "Pancakes with Maple Syrup",
+            "shortDescription": "Fluffy pancakes served with warm maple syrup and a side of fresh berries.",
+            "price": 9.99,
+            "imgUrl": "https://i.ibb.co/tCDp8y5/breakfast3.png",
+            "id": 3
+        }
+    ],
+    "dinner": [
+        {
+            "title": "Grilled Salmon",
+            "shortDescription": "Freshly grilled salmon fillet served with steamed vegetables and lemon butter sauce.",
+            "price": 18.99,
+            "imgUrl": "https://i.ibb.co/QHZWt6t/dinner4.png",
+            "id": 7
+        },
+        {
+            "title": "Mushroom Risotto",
+            "shortDescription": "Creamy risotto cooked with a variety of mushrooms and topped with Parmesan cheese.",
+            "price": 15.99,
+            "imgUrl": "https://i.ibb.co/fCnCXrP/dinner5.png",
+            "id": 8
+        },
+        {
+            "title": "Beef Tenderloin",
+            "shortDescription": "Tender and juicy beef tenderloin steak served with mashed potatoes and red wine sauce.",
+            "price": 22.99,
+            "imgUrl": "https://i.ibb.co/2N1mkKD/dinner6.png",
+            "id": 9
+        },
+        {
+            "title": "Caesar Salad",
+            "shortDescription": "Crisp romaine lettuce, Parmesan cheese, and homemade Caesar dressing.",
+            "price": 10.99,
+            "imgUrl": "https://i.ibb.co/T0bFYFH/lunch1.png",
+            "id": 4
+        },
+        {
+            "title": "Chicken Wrap",
+            "shortDescription": "Grilled chicken, lettuce, tomatoes, and creamy dressing wrapped in a tortilla.",
+            "price": 11.99,
+            "imgUrl": "https://i.ibb.co/HFyWvHV/lunch2.png",
+            "id": 5
+        },
+        {
+            "title": "Quinoa Salad",
+            "shortDescription": "A refreshing salad with quinoa, mixed greens, cucumbers, and tangy vinaigrette.",
+            "price": 9.99,
+            "imgUrl": "https://i.ibb.co/vHSCV46/lunch3.png",
+            "id": 6
         }
     ]
 }

@@ -1,0 +1,15 @@
+.blog-full {
+    margin-top: 120px;
+}
+.blog-heading h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #e51a4b;
+}
+.blog-heading p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.blog-heading {
+    margin: 35px 0;
+}
