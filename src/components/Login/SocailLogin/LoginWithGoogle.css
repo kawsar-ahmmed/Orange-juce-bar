@@ -1,0 +1,19 @@
+.social-button button{
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    padding: 20px 32px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.social-button button:hover {
+    background: fixed;
+}
+.social-google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-google-button img {
+    margin-right: 8px;
+}

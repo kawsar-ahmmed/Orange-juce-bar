@@ -1,0 +1,36 @@
+.from-container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-main {
+    width: 460px;
+    margin: auto;
+}
+.form-logo {
+    margin-bottom: 80px;
+}
+.login-main a {
+    color: #E51A4B;
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+}
+.login-main input {
+    border: none;
+    background: rgb(236, 236, 236);
+    padding: 20px 20px;
+    margin-bottom: 19px;
+}
+.login-main button {
+    background: #E51A4B;
+    border: none;
+    padding: 20px 32px;
+    width: 100%;
+    font-weight: bold;
+}
+.login-main button:hover {
+    background: #890020;
+}
