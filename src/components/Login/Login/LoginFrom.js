@@ -32,8 +32,8 @@ const LoginFrom = () => {
                             Login
                         </Button>
                     </Form>
-                    <NavLink onClick={navigate('/register')}> Create an account ?</NavLink>
                 </div>
+                <NavLink onClick={navigate('/register')}> Create an account.</NavLink>
             </Col>
         </Row>
     );

@@ -14,7 +14,7 @@ const Login = () => {
                 <div className="login-full login-main">
 
                     <LoginFrom></LoginFrom>
-                    <p className='text-center' style={{ "font-size": "20px", "margin": "30px 0" }}>Or</p>
+                    <p className='text-center' style={{ fontSize: '20px', "margin": "30px 0" }}>Or</p>
                     <LoginWithGoogle></LoginWithGoogle>
                 </div>
             </Container>
