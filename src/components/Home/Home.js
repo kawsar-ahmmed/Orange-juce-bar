@@ -6,7 +6,7 @@ import TableItems from './TableItems/Table';
 import Blog from '../Blog/Blog';
 
 const Home = () => {
-    const [setOnion] = useContext(OnionContext)
+    const [onion, setOnion] = useContext(OnionContext)
     useEffect(() => {
         fetch('onionData.json')
             .then(res => res.json())

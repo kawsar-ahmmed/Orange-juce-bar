@@ -6,7 +6,7 @@ import BreakFast from './BreakFast';
 import Lunch from './Lunch';
 
 const TableItems = () => {
-    const [onion] = useContext(OnionContext);
+    const [onion, setOnion] = useContext(OnionContext);
     const getBreakFast = onion.breakfast;
     const getLunch = onion.lunch;
     const getDinner = onion.dinner;
