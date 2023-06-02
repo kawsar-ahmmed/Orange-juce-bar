@@ -5,6 +5,7 @@ import { Container, Form } from 'react-bootstrap';
 import TableItems from './TableItems/Table';
 import Blog from '../Blog/Blog';
 
+
 const Home = () => {
     const [onion, setOnion] = useContext(OnionContext)
     useEffect(() => {
@@ -12,6 +13,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setOnion(data))
     }, [setOnion])
+    
 
     return (
         <div className='home-main'>
