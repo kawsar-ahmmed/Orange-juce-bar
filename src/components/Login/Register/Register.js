@@ -45,7 +45,7 @@ const Register = () => {
         );
     }
     return (
-        <div className="login-main text-center">
+        <div className="login-main text-center sign-up-main">
             <div className="form-logo">
                 <img height={80} src={FormLogo} alt="" />
             </div>
